@@ -30,18 +30,15 @@ The server distributes accepted news to all subscribed clients and filters messa
 
 ## Project Structure
 
-news-channel-subscription-system/
-│
-├── server/
-│   ├── server.py
-│   ├── requirements.txt
-│   └── Dockerfile
-│
-├── client/
-│   └── client.py
-│
-├── docker-compose.yml
-└── README.md
+- `news-channel-subscription-system/`
+  - `server/`
+    - `server.py`
+    - `requirements.txt`
+    - `Dockerfile`
+  - `client/`
+    - `client.py`
+  - `docker-compose.yml`
+  - `README.md`
 
 ---
 
